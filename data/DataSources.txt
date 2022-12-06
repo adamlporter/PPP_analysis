@@ -1,0 +1,22 @@
+OK, let's go back to first principles. If we've got ZIP code data in the PPP files, let's see what ZIP data we can find that relates to income, etc.,
+
+> https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
+
+lapi1122.xlsx comes from the above site
+
+
+
+This data looks promising, except they just use state and county names, without FIPS codes. This is stupid, but fixable.
+
+> https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/
+
+Four different data sets here, all coded with FIPS numbers.
+1. Education levels (1970-2020)
+1. Poverty estimates (2020)
+1. Unemployment and median income (2000-2021)
+1. Pop estimates (2010-2021)
+
+Education.xlsx, PopulationEstimates.xlsx, PovertyEstimates.xlsx, and Unemployment.xlsx come from the above site
+
+
+> https://www.bea.gov/tools/ 
