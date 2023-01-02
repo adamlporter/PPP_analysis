@@ -1,14 +1,10 @@
 /.env.development
 /data/*.csv
-/data/Education.xlsx
-/data/lapi1122.xlsx
-/data/PopulationEstimates.xlsx
-/data/ppp-data-dictionary.xlsx
-/data/Unemployment.xlsx
-/data/PovertyEstimates.xlsx
 /All_PPP_recs_rowsubset.json
 /RE_PPP_recs_rowsubset.json
 /*.json
 /*.done
 /Test*
 /test*
+/OLD*
+/*.xlsx
